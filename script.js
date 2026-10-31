@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',function(){const f=document.getElementById('contact-form');if(f){f.addEventListener('submit',function(e){e.preventDefault();f.style.display='none';document.getElementById('form-success').classList.remove('hidden');});}}); 
